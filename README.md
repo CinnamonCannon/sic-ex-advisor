@@ -1,71 +1,47 @@
-# sic-ex-advisor README
+# SIC/EX Advisor
 
-This is the README for your extension "sic-ex-advisor". After writing up a brief description, we recommend including the following sections.
+SIC/EX 어셈블리 코드 작성을 돕는 VS Code 확장 프로그램입니다. SIC/XE 어셈블리 학습용으로 제작하고 있습니다.
 
-## Features
+## 주요 기능
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### 🔤 키워드 자동 완성 (Tab Completion)
+- SIC/EX 명령어, 레지스터, 지시어에 대한 지능형 자동 완성
+- 컨텍스트 기반 제안으로 정확한 문법 지원
 
-For example if there is an image subfolder under your extension project workspace:
+### 📏 자동 줄맞춤 (Auto Formatting)
+- SIC/EX 어셈블리 코드의 표준 형식에 맞는 자동 들여쓰기
+- 라벨, 명령어, 피연산자의 일관된 정렬
 
-\!\[feature X\]\(images/feature-x.png\)
+### 🔍 정의로 이동 (Go to Definition)
+- 라벨과 심볼의 정의로 빠른 이동
+- 코드 탐색 및 디버깅 효율성 향상
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### 🎨 구문 하이라이팅 (Syntax Highlighting)
+- SIC/EX 어셈블리 언어에 최적화된 색상 테마
+- 명령어, 레지스터, 주석, 리터럴의 구분된 하이라이팅
 
-## Requirements
+## 지원하는 파일 형식
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- `.sic` - SIC 어셈블리 파일
+- `.xe` - SIC/XE 어셈블리 파일
+- `.asm` - 일반 어셈블리 파일 (SIC/EX 모드)
 
-## Extension Settings
+## 설치 방법
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. VS Code에서 확장 프로그램 마켓플레이스 열기 (`Ctrl+Shift+X`)
+2. "SIC/EX Advisor" 검색
+3. 설치 버튼 클릭
 
-For example:
+## 사용법
 
-This extension contributes the following settings:
+1. `.sic` 또는 `.xe` 파일을 열면 자동으로 확장 프로그램이 활성화됩니다
+2. 코드 작성 시 `Tab` 키를 눌러 자동 완성 기능을 사용하세요
+3. `F12` 키로 라벨 정의로 이동할 수 있습니다
+4. `Shift+Alt+F`로 코드 포맷팅을 실행하세요
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## 라이선스
 
-## Release Notes
+이 프로젝트는 MIT 라이선스 하에 배포됩니다.
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
